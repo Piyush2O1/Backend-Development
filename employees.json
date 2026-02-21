@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1771564061474,
+    "name": "Aditya",
+    "gender": "Male",
+    "department": [
+      "HR"
+    ],
+    "salary": 20000,
+    "startDate": "2026-02-26",
+    "notes": ""
+  },
+  {
+    "id": 1771565200994,
+    "name": "Piyush Mani Tripathi",
+    "gender": "Male",
+    "department": [
+      "Sales"
+    ],
+    "salary": 100000,
+    "startDate": "2026-02-24",
+    "notes": ""
+  },
+  {
+    "id": 1771568586115,
+    "name": "Piyush Mani Tripathi",
+    "gender": "Male",
+    "department": [
+      "Sales",
+      "Finance"
+    ],
+    "salary": 2,
+    "startDate": "2026-02-26",
+    "notes": ""
+  },
+  {
+    "id": 1771650184772,
+    "name": "Piyush Mani Tripathi",
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "gender": "Male",
+    "department": "Sales",
+    "salary": "40000",
+    "startDate": "2026-02-28"
+  }
+]

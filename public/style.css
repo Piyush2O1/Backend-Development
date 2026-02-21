@@ -1,0 +1,220 @@
+/* ================= DASHBOARD CSS ================= */
+
+body{
+background-color: #f5f5f5;
+font-family: Arial, sans-serif;
+margin: 0;
+}
+
+.header {
+
+background-color: white;
+padding: 20px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.add-btn {
+
+background-color: #82b440;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+.add-btn:hover {
+
+background-color: #6ea030;
+
+}
+
+.title {
+
+margin-left: 70px;
+margin-top: 20px;
+
+}
+
+table {
+
+width: 90%;
+margin: 20px auto;
+background-color: white;
+border-collapse: collapse;
+
+}
+
+th {
+
+background-color: #3f4a56;
+color: white;
+padding: 12px;
+
+}
+
+td {
+
+padding: 12px;
+border-bottom: 1px solid #ddd;
+
+}
+
+.profile {
+
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-right: 10px;
+
+}
+
+.name-cell {
+
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+
+.dept {
+
+background-color: #d6f5a3;
+padding: 5px 10px;
+border-radius: 15px;
+font-size: 12px;
+
+}
+
+
+
+/* ================= EXACT FORM CSS ================= */
+
+
+.form-container {
+
+width: 700px;
+background-color: white;
+margin: 40px auto;
+padding: 40px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+
+
+
+form{
+
+display: grid;
+
+grid-template-columns: 150px 1fr;
+
+row-gap: 20px;
+
+align-items: center;
+
+}
+
+
+
+.form-title {
+
+grid-column: 1 / span 2;
+text-align: center;
+margin-bottom: 20px;
+
+}
+
+
+
+.logo {
+
+margin-left: 40px;
+
+}
+
+
+
+input[type="text"],
+input[type="date"],
+select,
+textarea{
+
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+
+}
+
+
+
+.profile-images {
+
+display: flex;
+gap: 20px;
+
+}
+
+
+
+.profile-images img {
+
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+
+}
+
+
+
+.gender-group,
+.department-group{
+
+display: flex;
+gap: 20px;
+
+}
+
+
+
+.btn-group {
+
+grid-column: 1 / span 2;
+
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-top: 20px;
+
+}
+
+
+
+.btn-group button {
+
+width: 150px;
+padding: 10px;
+background-color: #82b440;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+
+
+.btn-group button:hover {
+
+background-color: #6ea030;
+
+}
+
